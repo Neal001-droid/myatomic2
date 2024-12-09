@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>My Atomic</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">My Atomic</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Article</a>
+            <a href="{{ url_for('contact_us') }}" >Contact us</a>
+            <a href="{{ url_for('login_signup') }}" >Sign in</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="/static/Hero-image.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Welcome to <span>My Atomic</span></h1>
+            <h3 class="typing-text"> Explore <span></span> </h3> 
+            <p>Welcome to My Atomic, a platform dedicated to exploring and understanding the fascinating world of quantum and atomic science. Here, we bring you insightful content designed to expand your knowledge about quantum mechanics, atomic structures, and the incredible phenomena that occur at the smallest scales of the universe.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="{{ url_for('login_signup') }}" class="btn">Sign in</a>
+        </div>
+    </section>
+</body>
+</html>
