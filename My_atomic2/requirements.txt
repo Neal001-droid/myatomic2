@@ -6,7 +6,6 @@ debugpy==1.8.6
 decorator==5.1.1
 executing==2.1.0
 Flask==3.0.3
-Flask-MySQLdb==2.0.0
 ipykernel==6.29.5
 ipython==8.28.0
 itsdangerous==2.2.0
