@@ -7,7 +7,7 @@ app.secret_key = 'your_secret_key'
 
 # Function to connect to the SQLite database
 def get_db_connection():
-    conn = sqlite3.connect('/home/technocrats/Documents/database/N_database.db')  # Replace with your database file
+    conn = sqlite3.connect('/My_atomic2/N_database.db')  # Replace with your database file
     conn.row_factory = sqlite3.Row
     return conn
 
